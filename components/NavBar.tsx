@@ -1,6 +1,7 @@
 import { NAV_LINKS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
+import Button from "./Button"
 
 
 const NavBar = () => {
@@ -21,7 +22,7 @@ const NavBar = () => {
 </ul>
 
 <div className="lg:flexCenter hidden">
-    <button> CLICK ME</button>
+    <Button/>
 
 </div>
 </Link> 
