@@ -8,6 +8,12 @@ const NavBar = () => {
 
 <Link href="/">
     <Image src="/hilink-logo.svg" alt="logo" width={74} height={29}/>
+
+    <ul className="hidden h-full gap-12 lg:flex">
+
+    []
+
+    </ul>
 </Link>
 
     </nav>
