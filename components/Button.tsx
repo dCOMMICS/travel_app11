@@ -2,7 +2,7 @@ import React from 'react'
 
 const button = () => {
   return (
-    <button>
+    <button type="button">
         
     </button>
   )
