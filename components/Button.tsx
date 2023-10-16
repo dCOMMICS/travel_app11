@@ -1,6 +1,13 @@
 import React from 'react'
 
-const button = () => {
+type ButtonProps = {
+  type: 'button' | 'submit',
+  title : string,
+  icon?: string,
+  variant?: string
+}
+
+const button = ({type,title,icon,variant}:ButtonProps) => {
   return (
     <button type="button">
        Login 
