@@ -7,6 +7,8 @@ type ButtonProps = {
   variant?: string
 }
 
+// edit this early morning
+
 const button = ({type,title,icon,variant}:ButtonProps) => {
   return (
     <button type="button">
