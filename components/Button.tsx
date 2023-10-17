@@ -11,7 +11,7 @@ type ButtonProps = {
 
 const button = ({type,title,icon,variant}:ButtonProps) => {
   return (
-    <button type="button">
+    <button type={type} >
        Login 
     </button>
   )
